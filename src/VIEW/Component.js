@@ -100,34 +100,48 @@ export default function Component() {
           </p>
 
           <div className="row">
+            {/* Opción de compra */}
             <div className="col-md-4 mb-4">
               <div className="bg-white p-4 rounded shadow-sm">
                 <h4 className="font-weight-bold mb-3">Compra del Sistema</h4>
-                <p>
-                  Obtén el sistema en su totalidad y aloja tu inventario en el hosting de tu elección. Esta opción te brinda autonomía total sobre el sistema.
-                </p>
-                <p className="font-weight-bold">Precio: $6,000 MXN</p> {/* Precio de compra */}
+                <ul className="list-unstyled text-left">
+                  <li>✔️ El cliente puede escoger su propia plataforma (servidor o hosting) para montar el sistema.</li>
+                  <li>✔️ No incluye soporte técnico.</li>
+                  <li>✔️ Si se requieren cambios o agregar funcionalidades, tiene un costo adicional.</li>
+                  <li>✔️ Incluye la modificación inicial del inventario de productos y stock acorde a las necesidades del cliente.</li>
+                  <li>✔️ Cualquier cambio posterior en el inventario o funcionalidades será con costo adicional.</li>
+                </ul>
+                <p className="font-weight-bold">Precio: $6,000 MXN (PRECIO FIJO)</p>
               </div>
             </div>
-            
+
+            {/* Opción de renta */}
             <div className="col-md-4 mb-4">
               <div className="bg-white p-4 rounded shadow-sm">
                 <h4 className="font-weight-bold mb-3">Renta del Sistema</h4>
-                <p>
-                  Alquila <strong>InvControl</strong> con un hosting anual incluido a un precio accesible. Ideal para pequeños negocios que prefieren no manejar infraestructura propia.
-                </p>
-                <p className="font-weight-bold">Renta Anual: $4,500 MXN</p> {/* Precio de renta */}
+                <ul className="list-unstyled text-left">
+                  <li>✔️ Incluye el servidor donde estará montado el sistema.</li>
+                  <li>✔️ Soporte técnico incluido.</li>
+                  <li>✔️ Si se requieren más funcionalidades, el costo de la renta aumentará.</li>
+                  <li>✔️ Incluye la modificación inicial del inventario de productos y stock acorde a las necesidades del cliente.</li>
+                  <li>✔️ Cualquier cambio posterior será con costo adicional.</li>
+                </ul>
+                <p className="font-weight-bold">Renta Anual: $5,500 MXN (NEGOCIABLE)</p>
               </div>
             </div>
-            
+
+            {/* Opción de instalación local */}
             <div className="col-md-4 mb-4">
               <div className="bg-white p-4 rounded shadow-sm">
                 <h4 className="font-weight-bold mb-3">Instalación Local</h4>
-                <p>
-                  Si prefieres tener el sistema funcionando en tu propio equipo de forma local, ofrecemos el servicio de instalación personalizado. 
-                  Nos encargaremos de configurar el sistema en tus instalaciones.
-                </p>
-                <p className="font-weight-bold">Costo de Instalación: $3,500 MXN</p> {/* Precio de instalación local */}
+                <ul className="list-unstyled text-left">
+                  <li>✔️ Instalación en un equipo del cliente.</li>
+                  <li>✔️ No incluye soporte técnico en caso de fallas del sistema.</li>
+                  <li>✔️ Si se requieren más funcionalidades o cambios, tiene un costo adicional.</li>
+                  <li>✔️ Incluye la modificación inicial del inventario de productos y stock acorde a las necesidades del cliente.</li>
+                  <li>✔️ Cualquier cambio posterior en el inventario será con costo adicional.</li>
+                </ul>
+                <p className="font-weight-bold">Precio: $3,500 MXN (NEGOCIABLE)</p>
               </div>
             </div>
           </div>
